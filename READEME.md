@@ -16,7 +16,7 @@ run dot2 software
 
 turn on webremote (password remote)
 
-run command `npm install` (first use only)
+run command `npm install` (first use only) (and yout have to be in the folder of the script)
 
 run startup.bat
 
