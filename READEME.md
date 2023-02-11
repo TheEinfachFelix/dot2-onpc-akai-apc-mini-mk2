@@ -1,5 +1,7 @@
 # Akai APC mini Adapter for MA Lighting dot2 onPC
 
+This is a Fork of this: https://git.ccmob.net/technome/dot2-onpc-akai-apc-mini 
+
 ---
 
 ## Inspired by [ArtGateOne](https://github.com/ArtGateOne)
