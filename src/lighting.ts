@@ -1,6 +1,9 @@
 import { blackout, output, showFaderButtons, wing } from "./main";
 import { lights } from "./types/types";
 
+import { userInterface } from "./therminal";
+export const ui = new userInterface();
+
 export let ledmatrix = [
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 5, 5, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0,
   0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 5, 0, 5, 0, 0, 0, 0, 0,
@@ -117,7 +120,8 @@ export function wsUpdateLights(obj: any) {
       }
       if (ledmatrix[j] != m) {
         ledmatrix[j] = m;
-        output.send("noteon", { note: j, velocity: m, channel: n });
+        var jx = j + 36;
+        output.send("noteon", { note: jx, velocity: m, channel: 0 });
       }
 
       if (showFaderButtons) {
