@@ -117,7 +117,8 @@ export function wsUpdateLights(obj: any) {
       }
       if (ledmatrix[j] != m) {
         ledmatrix[j] = m;
-        output.send("noteon", { note: j, velocity: m, channel: n });
+        var jx = j + 36;
+        output.send("noteon", { note: jx, velocity: m, channel: 0 });
       }
 
       if (showFaderButtons) {
