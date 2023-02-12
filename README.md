@@ -16,6 +16,8 @@ run dot2 software
 
 turn on webremote (password remote)
 
+https://nodejs.org/en/download/ (https://github.com/nodejs/node-gyp#on-windows)
+
 run command `npm install` (first use only) (and yout have to be in the folder of the script)
 
 run startup.bat
