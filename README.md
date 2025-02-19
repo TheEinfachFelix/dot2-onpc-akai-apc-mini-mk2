@@ -17,11 +17,11 @@ his project: https://github.com/ArtGateOne/dot2apcmini2
 3. Open CMD in the Unpackt Foler
 4. install [NodeJS](https://nodejs.org/en/download/) version 16.20.2
 5. install Python (version < 12) [direct Link to a working verion](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us&gl=US)
-6. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community). Make shure to install the ``` Visual C++ build tools``` or ```Desktopentwicklung mit C++```
-8. execute ``` cmd
-npm install```
-
+6. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community). Make shure to install the ```Visual C++ build tools``` or ```Desktopentwicklung mit C++```
+8. execute ```npm install```
 9. Ready for use
+
+---
 
 # How to use
 
