@@ -35,4 +35,4 @@ his project: https://github.com/ArtGateOne/dot2apcmini2
 
 tested with Node.js v16.14.0
 
-Note: https://github.com/nodejs/node-gyp#on-windows
+Info for me: https://github.com/nodejs/node-gyp#on-windows
