@@ -2,14 +2,6 @@
 
 This is a Fork of this: https://git.ccmob.net/technome/dot2-onpc-akai-apc-mini 
 
----
-
-## Inspired by [ArtGateOne](https://github.com/ArtGateOne)
-
-his project: https://github.com/ArtGateOne/dot2apcmini2
-
----
-
 # How to install
 
 1. download this Repo
@@ -21,18 +13,16 @@ his project: https://github.com/ArtGateOne/dot2apcmini2
 8. execute ```npm install```
 9. Ready for use
 
----
-
 # How to use
 
 1. run dot2 software
 2. turn on webremote (password: ```remote```)
 3. run startup.bat
 
----
-
 ## Compatibility
 
 tested with Node.js v16.14.0
+
+---
 
 Info for me: https://github.com/nodejs/node-gyp#on-windows
