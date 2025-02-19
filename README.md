@@ -26,7 +26,7 @@ his project: https://github.com/ArtGateOne/dot2apcmini2
 # How to use
 
 1. run dot2 software
-2. turn on webremote (password remote)
+2. turn on webremote (password: ```remote```)
 3. run startup.bat
 
 ---
